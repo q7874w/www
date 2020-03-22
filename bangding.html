@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绑定</title>
+    <link rel="stylesheet" href="./images/bangding.css">
+    <script src="./images/getRem.js"></script>
+</head>
+<body >
+    <div class="banner">
+        <img src="./images/banner.png" alt="">
+    </div>
+    <div class="content">
+
+        <p class="isshow">当前暂无绑定人员，请点击下方按钮进行绑定</p>
+        <button class="bd_btn">
+            新增绑定人员
+        </button>
+        <span class="tishi">最多可绑定3人</span>
+         
+    </div>
+    <div class="bottom_pos">
+        <span>
+            —— 国务院办公厅电子政务办公室主办 ——
+        </span>
+    </div>
+    <div class="add_user">
+        <div class="user_con">
+            <div class="con_top">
+                <span class="bc">保存</span>
+                <span class="qx">取消</span>
+            </div>
+            <div class="xinxi_lab">
+                <div class="lab_left">
+                    <p>姓名</p>
+                    <input type="text" id="name" placeholder="请输入">
+                </div>
+                <div class="lab_left fRight">
+                    <p>关系</p>
+                    <div class="fbox">
+                        <input type="text" id="guanxi" placeholder="请选择">
+                        <ul class="option">
+                            <li>本人</li>
+                            <li>父母</li>
+                            <li>兄弟</li>
+                            <li>朋友</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="lab_left all">
+                        <p>入境所持证件号</p>
+                        <input type="text" id="rjsczjh" placeholder="请输入入境所持证件号">
+                    </div>
+                    <div class="lab_left all">
+                            <p>身份证（护照）号</p>
+                            <input type="text" id="sfzhzh" placeholder="请输入身份证（护照）号">
+                        </div>
+            </div>
+        </div>
+    </div>
+    <script src="./images/jquery.js"></script>
+    <script src="./images/bangding.js"></script>
+</body>
+</html>

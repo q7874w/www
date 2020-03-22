@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+
+}
+body {
+    background: #fff;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.content {
+    width: 100%;
+    padding: 0 .3rem ;
+}
+.content .isshow {
+    padding-top: .8rem;
+
+    width: 100%;
+    font-size:15px;
+    color: #333;
+    text-align: center;
+}
+
+.bd_btn {
+    width: 4rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    border:1px solid #6281c3;
+    margin: 1rem auto 0;
+    font-size: 14px;
+    color: #6281c3;
+    padding-left: 1.6rem;
+    line-height: 1rem;
+    background: url(./jiaren.png) no-repeat .8rem center;
+    background-size: .5rem;
+    text-align: left;
+    display: block;
+    outline: none;
+}
+.tishi {
+    width: 100%;
+    height: 1rem;
+    font-size: 12px;
+    color: #a3a3a3;
+    line-height: 1rem;
+    text-align: center;
+    display: block
+}
+
+.bottom_pos {
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    font-size: 13px;
+    color: #a3a3a3;
+}
+
+.add_user{
+    width: 100%;
+    height: 100%;
+    background: #0000009e;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    padding: 2rem .3rem;
+    display: none;
+}
+.user_con {
+    width: 100%;
+    margin-top: 1.2rem;
+    background: #fff;
+    border-radius: 5px;
+    padding:.2rem .3rem;
+    font-size: 14px;
+    line-height: 22px;
+    color:#333;
+}
+.con_top{
+    width: 100%;
+    height: 0.6rem;
+    color:#3399cc;
+    font-size: 16px;
+    line-height: .6rem;
+}
+.con_top .qx {
+    float: right;
+}
+.xinxi_lab:after{
+   content:"."; display:block; height:0; visibility:hidden; clear:both; 
+}
+.lab_left{
+    width: 46%;
+    float: left;
+    margin-bottom: .25rem;
+}
+.lab_left p{
+    font-size: 15px;
+    color: #a3a3a3;
+    line-height: .6rem;
+}
+.lab_left input{
+    width: 100%;
+    height: 0.6rem;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #a3a3a3;
+    outline: none;
+    line-height: .7rem;
+    font-size: 16px;
+    background: transparent;
+    color: #333;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #333;
+  }
+  
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #333;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #333;
+  }   
+.fRight{
+    float: right;
+}
+
+.fbox{
+    position: relative;
+    background: url(./xia.png) no-repeat right center;
+
+}
+.option{
+    width: 100%;
+    position: absolute;
+    top: .6rem;
+    left:0;
+    background: #efefef;
+    display: none;
+}
+.option li{
+    width: 100%;
+    height: 0.6rem;
+    line-height: .6rem;
+    font-size: 16px;
+    color: #333;
+    padding-left: .15rem
+}
+
+.bdry{
+    font-weight: bold;
+    font-size: 18px;
+    height: .6rem;
+    line-height: .6rem;
+    color:#333;
+}
+.user_box{
+    width: 100%;
+    margin-top: .1rem;
+    background: #fff;
+    border-radius: 8px;
+    padding:.2rem .3rem;
+    margin-bottom: .2rem;
+}
+
+.user_top{
+    width: 100%;
+    height: 0.6rem;
+    color:#3399cc;
+    font-size: 14px;
+    line-height: .6rem;
+}
+.jcbd{
+    float: right;
+}
+.xx_con{
+    padding: .1rem 0 .2rem;
+}
+.xx_left{
+    float: left;
+
+}
+.ewm{
+    width: 2.1rem;
+    height: 2.1rem;
+    background: #efefef;
+    padding:.1rem;
+}
+.ewm img{
+    width: 100%;
+    height: 100%;
+}
+.xx_right{
+    float: right;
+    width: 3.8rem;
+}
+.user_lab{
+    float: left;
+    width: 46%;
+}
+.user_lab p{
+    font-size: 14px;
+    color:#a3a3a3;
+    height: .5rem;
+    line-height: .5rem;
+}
+.user_lab h4{
+    font-size: 14px;
+    color: #333;
+    height: .7rem;
+    line-height: .5rem;
+    font-weight: 400;
+}
+#jkdk{
+    width: 100%;
+    height: .85rem;
+    background: #1a88e3;
+    text-align: center;
+    font-size: 17px;
+    line-height: .85rem;
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    display: block
+}
+
+.jkmgz{
+    width: 100%;
+    font-size: 12px;
+    color:#2684df;
+    background: url(./wenhaoyuanyiwenmianxing.png) no-repeat .1rem center;
+    background-size: 14px;
+    padding-left: 20px;
+    margin-top: .15rem;
+}
+.yxq{
+    font-size: 13px;
+    text-align: center;
+    color:#a3a3a3;
+    height: 0.5rem;
+    line-height: 0.7rem;
+}
+
+.all{
+    width: 100%;
+}

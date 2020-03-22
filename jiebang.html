@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绑定</title>
+    <link rel="stylesheet" href="./images/bangding.css">
+    <script src="./images/getRem.js"></script>
+</head>
+
+<body style="background: #f4f4f4">
+    <div class="banner">
+        <img src="./images/banner.png" alt="">
+    </div>
+    <div class="content">
+        <p class="bdry">当前绑定人员</p>
+        <div class="user_box">
+            <div class="user_top">
+                <span class="xg">修改</span>
+                <span class="jcbd">解除绑定</span>
+            </div>
+            <div class="xx_con">
+                <div class="xx_left">
+                    <div class="ewm">
+                        <img src="./images/ewm.jpg" alt="">
+                    </div>
+                    <p class="jkmgz blue">查看健康码规则</p>
+                </div>
+
+                <div class="xx_right">
+                    <div class="user_lab">
+                        <p class="tlt">姓名</p>
+                        <h4 class="uname">张三</h4>
+                    </div>
+                    <div class="user_lab">
+                        <p class="tlt">关系</p>
+                        <h4 class="uguanxi">父母</h4>
+                    </div>
+                    <div class="user_lab all">
+                        <p class="tlt">入境所持证件号</p>
+                        <h4 class="uzjh">G879787879</h4>
+                    </div>
+                    <div class="user_lab all">
+                        <p class="tlt">身份证（护照）号</p>
+                        <h4 class="ucfzh">110220198711233321</h4>
+                    </div>
+                </div>
+                <button id="jkdk">健康打卡</button>
+                <p class="yxq">有效期至04月22日19时20分</p>
+            </div>
+        </div>
+        <div class="user_box">
+            <div class="user_top">
+                <span class="xg">修改</span>
+                <span class="jcbd">解除绑定</span>
+            </div>
+            <div class="xx_con">
+                <div class="xx_left">
+                    <div class="ewm">
+                        <img src="./images/ewm.jpg" alt="">
+                    </div>
+                    <p class="jkmgz red">查看健康码规则</p>
+                </div>
+
+                <div class="xx_right">
+                    <div class="user_lab">
+                        <p class="tlt">姓名</p>
+                        <h4 class="uname">张三2</h4>
+                    </div>
+                    <div class="user_lab">
+                        <p class="tlt">关系</p>
+                        <h4 class="uguanxi">本人</h4>
+                    </div>
+                    <div class="user_lab all">
+                        <p class="tlt">入境所持证件号</p>
+                        <h4 class="uzjh">G879787872</h4>
+                    </div>
+                    <div class="user_lab all">
+                        <p class="tlt">身份证（护照）号</p>
+                        <h4 class="ucfzh">220220198711233321</h4>
+                    </div>
+                </div>
+                <button id="jkdk">健康打卡</button>
+                <p class="yxq">有效期至04月22日19时20分</p>
+            </div>
+        </div>
+        <div class="user_box">
+            <div class="user_top">
+                <span class="xg">修改</span>
+                <span class="jcbd">解除绑定</span>
+            </div>
+            <div class="xx_con">
+                <div class="xx_left">
+                    <div class="ewm">
+                        <img src="./images/ewm.jpg" alt="">
+                    </div>
+                    <p class="jkmgz yellow">查看健康码规则</p>
+                </div>
+
+                <div class="xx_right">
+                    <div class="user_lab">
+                        <p class="tlt">姓名</p>
+                        <h4 class="uname">张三22</h4>
+                    </div>
+                    <div class="user_lab">
+                        <p class="tlt">关系</p>
+                        <h4 class="uguanxi">兄弟</h4>
+                    </div>
+                    <div class="user_lab all">
+                        <p class="tlt">入境所持证件号</p>
+                        <h4 class="uzjh">G879787222</h4>
+                    </div>
+                    <div class="user_lab all">
+                        <p class="tlt">身份证（护照）号</p>
+                        <h4 class="ucfzh">220220198711233321</h4>
+                    </div>
+                </div>
+                <button id="jkdk">健康打卡</button>
+                <p class="yxq">有效期至04月22日19时20分</p>
+            </div>
+        </div>
+
+        <button class="bd_btn">
+            新增绑定人员
+        </button>
+        <span class="tishi">最多可绑定3人</span>
+
+    </div>
+    <div class="bottom_pos" style="position: static">
+        <span>
+            —— 国务院办公厅电子政务办公室主办 ——
+        </span>
+    </div>
+    <div class="add_user" id="add_user">
+        <div class="user_con">
+            <div class="con_top">
+                <span class="bc">保存</span>
+                <span class="qx">取消</span>
+            </div>
+            <div class="xinxi_lab">
+                <div class="lab_left">
+                    <p>姓名</p>
+                    <input type="text" id="name" placeholder="请输入">
+                </div>
+                <div class="lab_left fRight">
+                    <p>关系</p>
+                    <div class="fbox">
+                        <input type="text" id="guanxi" placeholder="请选择">
+                        <ul class="option">
+                            <li>本人</li>
+                            <li>父母</li>
+                            <li>兄弟</li>
+                            <li>朋友</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="lab_left all">
+                    <p>入境所持证件号</p>
+                    <input type="text" id="rjsczjh" placeholder="请输入入境所持证件号">
+                </div>
+                <div class="lab_left all">
+                    <p>身份证（护照）号</p>
+                    <input type="text" id="sfzhzh" placeholder="请输入身份证（护照）号">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="add_user" id="redm">
+        <div class="user_con">
+            红码主要指需要集中隔离医学观察的人员；
+        </div>
+    </div>
+    <div class="add_user" id="yellowm">
+        <div class="user_con">
+            黄码主要指需要自我居家隔离医学观察的人员；
+        </div>
+    </div>
+    <div class="add_user" id="bluem">
+        <div class="user_con">
+            绿码主要指当前体温正常，可以自由通行人员。
+        </div>
+    </div>
+    <script src="./images/jquery.js"></script>
+    <script src="./images/bangding.js"></script>
+</body>
+
+</html>
